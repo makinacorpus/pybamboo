@@ -11,8 +11,8 @@ setup(
     description='A Python package to interact with bamboo.io.',
     long_description=open('README.rst', 'rt').read(),
     install_requires=[
-        'requests==0.14.0',
-        'simplejson==2.6.2',
-        'pymongo==2.3'
+        'requests',
+        'simplejson',
+        'pymongo'
     ],
 )
